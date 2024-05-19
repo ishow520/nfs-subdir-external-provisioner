@@ -1,7 +1,7 @@
 apiVersion: storage.k8s.io/v1
 kind: StorageClass
 metadata:
-  name: manage-nfc-storage
+  name: managed-nfs-storage
 provisioner: fuseim.pri/ifs
 parameters:
   archiveOnDelete: "false"
